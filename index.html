@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="//cdn.materialdesignicons.com/5.4.55/css/materialdesignicons.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Vampiro</title>
+  </head>
+  <body>
+    <header class="container-fluid bg-dark">
+      <section class="row text-center justify-content-center">
+        <div class="col-6">
+          <h1 class="text-light mdi mdi-flag">Madrid, Spain</h1>
+        </div>
+      </section>
+    </header>
+
+    <main class="container-fluid">
+      <section
+        class="row justify-content-center text-center p-5 fs-1 text-light"
+      >
+        <div class="-col-6 p-3">
+          <div class="bg-danger">
+            <p id="🏛️">🏛️ Town Hall</p>
+            <button class="bg-black" onclick="checkTownHall()">🏛️</button>
+          </div>
+        </div>
+        <div class="-col-6 p-3">
+          <div class="bg-info">
+            <p id="🏥">🏥 Hospital</p>
+            <button class="bg-black" onclick="checkHospital()">🏥</button>
+          </div>
+        </div>
+        <div class="-col-6 p-3">
+          <div class="bg-success-subtle">
+            <p id="🏭">🏭 Factory</p>
+            <button class="bg-black" onclick="checkFactory()">🏭</button>
+          </div>
+        </div>
+        <div class="-col-6 p-3">
+          <div class="bg-black">
+            <p id="🏖️">🏖️ Beach</p>
+            <button class="bg-black" onclick="checkBeach()">🏖️</button>
+          </div>
+        </div>
+        <div class="-col-6 p-3">
+          <div class="bg-warning">
+            <p id="🏫">🏫 School</p>
+            <button class="bg-black" onclick="checkSchool()">🏫</button>
+          </div>
+        </div>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
